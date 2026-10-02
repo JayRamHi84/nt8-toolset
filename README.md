@@ -41,3 +41,34 @@ nt8-toolset/
 ---
 
 ## 🚀 Global Installation Guide
+
+### Option 1: Direct File Copy (Recommended)
+1. Clone or download this repository to your PC.
+2. Copy the `.cs` files directly to your NinjaTrader 8 directories:
+   * **Indicators:** Copy the `.cs` file from `Indicators/<ToolName>/` to:  
+     `Documents\NinjaTrader 8\bin\Custom\Indicators\`
+   * **Strategies:** Copy the `.cs` file from `Strategies/<ToolName>/` to:  
+     `Documents\NinjaTrader 8\bin\Custom\Strategies\`
+3. Open NinjaTrader 8.
+4. Open the NinjaScript Editor (**Tools** > **New NinjaScript Editor** or press **F5**) and compile.
+
+### Option 2: Copy-Paste via NinjaScript Editor
+1. In NinjaTrader 8, go to **Tools** > **New NinjaScript** > **Indicator** (or **Strategy**).
+2. Set the name to match the script (e.g., `DataExport`).
+3. Copy the code from the corresponding `.cs` file in this repository and replace the generated template.
+4. Press **F5** to compile.
+
+---
+
+## ⚡ Performance Guidelines
+
+All scripts in this repository follow strict performance best practices:
+* **Garbage Collection (GC) Safe:** Minimal allocations on `OnBarUpdate()` and `OnMarketData()` to prevent latency spikes during high-volatility events.
+* **Thread Marshalling:** UI operations use WPF `Dispatcher`, while data-layer interactions are safely pushed to the data thread via `TriggerCustomEvent()`.
+* **Native Win32 Integration:** Hardware and low-level subsystem access (such as MIDI synthesis or disk streaming) utilize native Windows APIs without external wrapper dependencies.
+
+---
+
+## 📄 License
+
+This repository is licensed under the [MIT License](LICENSE). You are free to modify, distribute, and integrate these scripts into your own commercial or private trading setups.

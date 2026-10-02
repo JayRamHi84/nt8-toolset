@@ -26,8 +26,18 @@
 
 ```text
 nt8-toolset/
-├── Indicators/       # Custom NT8 Indicators (drop into bin/Custom/Indicators)
-└── Strategies/       # Custom NT8 Strategies (drop into bin/Custom/Strategies)
+├── README.md               # Main repository catalog
+├── LICENSE
+├── Indicators/             # Custom NT8 Indicators
+│   └── AudioTapeReader/
+│       ├── AudioTapeReader.cs
+│       └── README.md
+└── Strategies/             # Custom NT8 Strategies
+    └── DataExport/
+        ├── DataExport.cs
+        └── README.md
 ```
 
 ---
+
+## 🚀 Global Installation Guide

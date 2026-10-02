@@ -2,7 +2,7 @@
 
 > **A curated collection of open-source NinjaTrader 8 indicators, strategies, and execution utilities.**
 
-`nt8-toolset` provides production-ready, high-performance NinjaScript tools designed for order flow traders, algorithmic developers, and quantitative researchers. All tools are built with memory-safe design, zero external bloat, and clean C# architecture.
+`nt8-toolset` provides production-ready, high-performance NinjaScript tools. All tools are built with memory-safe design, zero external bloat, and clean C# architecture.
 
 ---
 

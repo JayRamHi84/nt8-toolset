@@ -1,4 +1,3 @@
-```markdown
 # NT8-Toolset
 
 > **A curated collection of open-source NinjaTrader 8 indicators, strategies, and execution utilities.**

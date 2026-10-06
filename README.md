@@ -11,6 +11,7 @@
 | Tool | Category | Description | Docs |
 | :--- | :--- | :--- | :---: |
 | **[AudioTapeReader](./Indicators/AudioTapeReader)** | Order Flow / Audio | Real-time Time & Sales sonification using a 13-stage dynamic blues progression engine via Win32 MIDI. | [View Docs](./Indicators/AudioTapeReader/README.md) |
+| **[NumPadTraderV2](./Indicators/NumPadTraderV2)** | Execution / Hotkeys | Low-latency numeric keypad execution console with dynamic OCO brackets, adaptive step management, and Chart Trader sync. | [View Docs](./Indicators/NumPadTraderV2/README.md) |
 
 ### Strategies & Utilities
 

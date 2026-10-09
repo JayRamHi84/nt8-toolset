@@ -155,3 +155,9 @@ Change the **`MidiInstrument`** property to swap out sound banks:
 * **Resource Safety:** Audio handles (`midiHandle`) are cleanly released via `midiOutClose` in `State.Terminated` to prevent Windows unmanaged handle leaks.
 
 ---
+
+⚠️ Risk & Financial Disclaimer
+This software is for educational, research, and entertainment purposes only. 
+It does not constitute financial, investment, or trading advice. 
+Futures, options, and equities trading involve substantial risk of loss and are not suitable for every investor. 
+The author assumes no responsibility or liability for any financial losses incurred from using this indicator.

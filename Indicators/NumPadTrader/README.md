@@ -123,3 +123,9 @@ When adjusting orders dynamically during fast price action (via **`Num 9`** or *
 2. Open NinjaTrader 8 and press **F5** in the NinjaScript Editor to compile.
 3. Open any chart, press **Ctrl + I**, select **NumPadTraderV2**, configure your point parameters, and click **OK**.
 4. Click once on the chart canvas to ensure the chart window has keyboard focus.
+
+⚠️ Risk & Financial Disclaimer
+This software is for educational, research, and entertainment purposes only. 
+It does not constitute financial, investment, or trading advice. 
+Futures, options, and equities trading involve substantial risk of loss and are not suitable for every investor. 
+The author assumes no responsibility or liability for any financial losses incurred from using this indicator.

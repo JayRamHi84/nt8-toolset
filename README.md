@@ -71,3 +71,9 @@ All scripts in this repository follow strict performance best practices:
 ## 📄 License
 
 This repository is licensed under the [MIT License](LICENSE). You are free to modify, distribute, and integrate these scripts into your own commercial or private trading setups.
+
+⚠️ Risk & Financial Disclaimer
+This software is for educational, research, and entertainment purposes only. 
+It does not constitute financial, investment, or trading advice. 
+Futures, options, and equities trading involve substantial risk of loss and are not suitable for every investor. 
+The author assumes no responsibility or liability for any financial losses incurred from using this indicator.
